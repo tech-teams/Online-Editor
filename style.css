@@ -1,0 +1,85 @@
+body {
+    text-align: center;
+  }
+  
+  textarea {
+    width: 32%;
+    resize: both;
+    min-height: 250px;
+    overflow: scroll;
+    margin: 5px;
+    display: inline-block;
+    background-color: aliceblue;
+    outline: none;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 14px;
+  }
+  
+  .black-theme textarea {
+    background-color: #555a5d;
+    color: white;
+  }
+  
+  iframe {
+    bottom: 0;
+    position: relative;
+    width: 95%;
+    border: 2px solid darkgrey;
+    background-color: rgb(255, 255, 255);
+    resize: both;
+    height: 50%;
+    max-width: 95%;
+    border-radius: 10px;
+  }
+  
+  #outer-div {
+    padding: 5px 10px;
+  }
+  
+  .black-theme #outer-div {
+    background-color: #393939;
+  }
+  
+  #code-div {
+    padding: 10px 13px;
+    background-color: rgb(99, 93, 93);
+  }
+  
+  #header-div {
+    padding: 5px 0;
+  }
+  #header-div button#run {
+    background-color: #4caf50 !important;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer;
+  }
+  #header-div button#run:hover {
+    background-color: rgb(188, 207, 189) !important;
+    color: rgb(90, 81, 81);
+  }
+  
+  #header-div button#theme {
+    background-color: #c2ccc3 !important;
+    color: black;
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer;
+  }
+  #header-div button#theme:hover {
+    background-color: rgb(60, 63, 60) !important;
+    color: white;
+  }
+  
+  .black-theme #header-div button#theme {
+    background-color: rgb(68, 71, 68) !important;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer;
+  }
+  .black-theme #header-div button#theme:hover {
+    background-color: #c2ccc3 !important;
+    color: black;
+  }
