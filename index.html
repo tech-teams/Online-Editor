@@ -1,0 +1,37 @@
+<html>
+  <head>
+    <title>Code Editor</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="black-theme">
+    <div id="outer-div">
+      <div id="header-div">
+        <button id="theme" onclick="themeChange()">Theme</button>
+        <button id="run" onclick="codeExecution()">Run »</button>
+      </div>
+      <div id="code-div">
+        <textarea
+          name="html-content"
+          id="html-content"
+          placeholder="Html"
+        ></textarea>
+        <textarea
+          name="css-content"
+          id="css-content"
+          placeholder="Css"
+        ></textarea>
+        <textarea
+          name="js-content"
+          id="js-content"
+          placeholder="JavaScript"
+        ></textarea>
+      </div>
+
+      <br /><br />
+      <iframe id="source-code" src="" frameborder="0"></iframe>
+    </div>
+
+    <script type="text/javascript" src="app.js"></script>
+  </body>
+</html>
